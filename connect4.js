@@ -374,7 +374,7 @@ class Game {
             clearTimeout(timer);
             return;
           }
-          timer = setTimeout(addConfetto, spread * 2);
+          timer = setTimeout(addConfetto, spread * random());
         })();
 
         // Start the loop
@@ -466,9 +466,11 @@ document.getElementById("start-game").addEventListener("click", () => {
   let p1 = new Player(document.getElementById("p1-color").value);
   let p2 = new Player(document.getElementById("p2-color").value);
   const playerTurn = document.getElementById("player-turn");
+  const game = document.getElementById("game");
   playerTurn.innerText = `YOUR TURN ${p1.color.toUpperCase()} PLAYER`;
   playerTurn.style.borderColor = p1.color;
   playerTurn.style.boxShadow = `0px 0px 10px -3px ${p1.color}`;
+  game.style.display = "inherit";
   console.log(p1, p2);
   new Game(p1, p2);
 });
