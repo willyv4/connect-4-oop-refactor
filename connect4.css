@@ -155,18 +155,13 @@ div #player-turn {
 }
 
 
-/* @media only screen and (max-device-width: 400px) {
-  body{
-    width: max-content;
-  }
-
+@media only screen and (max-device-width: 400px) {
   #start-game {
     height: 50.2px;
     text-transform: uppercase;
     font-weight: 700;
   }
-
   .form-items{
     border-radius: 0px;
   }
-} */
+}
