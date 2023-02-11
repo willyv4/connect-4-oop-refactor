@@ -168,4 +168,8 @@ div #player-turn {
     text-transform: uppercase;
     font-weight: 700;
   }
+
+  .form-items{
+    border-radius: 0px;
+  }
 }
