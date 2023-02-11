@@ -156,12 +156,12 @@ div #player-turn {
 
 
 @media only screen and (max-device-width: 400px) {
-  body {
+  /* body {
     margin-top: 150px;
     width: 100%;
     overflow: hidden;
     zoom: 1.7;
-  }
+  } */
 
   #start-game {
     height: 49px;
