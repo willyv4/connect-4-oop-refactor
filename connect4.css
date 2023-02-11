@@ -157,14 +157,20 @@ div #player-turn {
 
 @media only screen and (max-device-width: 400px) {
   body {
-    zoom: -1;
+    margin-top: 150px;
+    width: 100%;
+    overflow: hidden;
+    zoom: 1.7;
   }
+
   #start-game {
-    height: 50px;
+    height: 51px;
     text-transform: uppercase;
     font-weight: 700;
   }
+
   .form-items{
     border-radius: 0px;
+    -webkit-text-size-adjust: 100%;
   }
 }
