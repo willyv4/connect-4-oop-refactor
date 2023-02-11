@@ -12,7 +12,7 @@ body{
   margin-right:  10px;
   border-bottom: rgb(214, 214, 214) 4px solid;
   height:40px;
-  font-size: 18px;
+  font-size: 16px;
   transition: border .5s ease-in-out;
   text-transform: uppercase;
   font-weight: 500;
@@ -156,12 +156,12 @@ div #player-turn {
 
 
 @media only screen and (max-device-width: 400px) {
-  body {
+  /* body {
     margin-top: 150px;
     width: 100%;
     overflow: hidden;
     zoom: 2;
-  }
+  } */
   #start-game {
     height: 50.2px;
     text-transform: uppercase;
