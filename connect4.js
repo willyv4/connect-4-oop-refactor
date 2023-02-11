@@ -141,12 +141,10 @@ class Game {
     if (this.players[0] === this.currPlayer) {
       playerTurn.innerText = `YOUR TURN ${this.currPlayer.color.toUpperCase()} PLAYER`;
       playerTurn.style.borderColor = this.currPlayer.color;
-      playerTurn.style.boxShadow = `0px 0px 10px -3px ${this.currPlayer.color}`;
     }
     if (this.players[1] === this.currPlayer) {
       playerTurn.innerText = `YOUR TURN ${this.currPlayer.color.toUpperCase()} PLAYER`;
       playerTurn.style.borderColor = this.currPlayer.color;
-      playerTurn.style.boxShadow = `${this.currPlayer.color} 0px 0px 10px -3px`;
     }
   }
 
@@ -469,7 +467,6 @@ document.getElementById("start-game").addEventListener("click", () => {
   const game = document.getElementById("game");
   playerTurn.innerText = `YOUR TURN ${p1.color.toUpperCase()} PLAYER`;
   playerTurn.style.borderColor = p1.color;
-  playerTurn.style.boxShadow = `0px 0px 10px -3px ${p1.color}`;
   game.style.display = "inherit";
   console.log(p1, p2);
   new Game(p1, p2);
