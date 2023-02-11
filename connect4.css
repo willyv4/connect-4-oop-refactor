@@ -12,7 +12,7 @@ body{
   margin-right:  10px;
   border-bottom: rgb(214, 214, 214) 4px solid;
   height:40px;
-  font-size: 14px;
+  font-size: 16px;
   transition: border .5s ease-in-out;
   text-transform: uppercase;
   font-weight: 700;
