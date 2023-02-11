@@ -164,14 +164,13 @@ div #player-turn {
   }
 
   #start-game {
-    height: 50px;
+    height: 49px;
     text-transform: uppercase;
     font-weight: 700;
   }
 
   .form-items{
     border-radius: 0px;
-    -webkit-text-size-adjust: 100%;
     -webkit-user-select: auto;
     -moz-user-select: auto;
     -ms-user-select: auto;
